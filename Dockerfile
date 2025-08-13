@@ -1,4 +1,5 @@
-FROM ubuntu:21.04 AS builder
+FROM rockylinux:8 AS builder
+
 
 # Env variables
 ENV DEBIAN_FRONTEND=noninteractive \
